@@ -1,0 +1,12 @@
+---
+#needed to overcome no spring.config imprt error
+#alongside spring-cloud-starter-bootstrap dependency
+
+#Mapped node expected but got '' error possible cause not 
+#defining spring application name in file, but the dependency
+#takes care of it as it makes project aware.
+spring:
+  cloud:
+    config:
+      uri: http://localhost:9296
+      enabled: true
