@@ -12,7 +12,7 @@ Cloud gateway configures paths, circuit breaker fallback method uris (hystrix), 
 
 Hystrix dashboard accepts http:(host):(port)/hystrix.stream and monitors gateway specified route services.
 
-Cloud config server references a [git hub repo](https://github.com/Gaurav-Shinde/microservices-config) for service registry in bootstrap.yaml file of services.
+Cloud config server references a [github repo](https://github.com/Gaurav-Shinde/microservices-config) for service registry in bootstrap.yaml file of services.
 
 ### Remarks
 
@@ -27,8 +27,8 @@ Hystrix dashboard is unable to recognize media stream despite different config a
 ## Instructions
 
 Installations:
-..*jdk 8
-..*maven 1.8
-..*sts 4
+..* jdk 8
+..* maven 1.8
+..* sts 4
 
 Run all: registry, gateway, config-server, user-service, department-service, hystrix-dashboard - all in that order.
