@@ -28,7 +28,7 @@ Hystrix dashboard is unable to recognize media stream despite different config a
 
 Installations:
 - jdk 8
-- maven 4
+- maven 3.8.6
 - STS 4
 
 Run all in STS: registry, gateway, config-server, user-service, department-service, hystrix-dashboard - all in that order.
